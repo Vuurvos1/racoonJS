@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel": "parcel public/index.html",
+    "build": "parcel build public/index.html",
     "lint": "eslint --fix --ext .js ."
   },
   "repository": {
@@ -24,7 +26,10 @@
     "url": "https://github.com/Vuurvos1/racoonJS/issues"
   },
   "homepage": "https://github.com/Vuurvos1/racoonJS#readme",
-  "dependencies": {},
+  "dependencies": {
+    "d3": "^6.2.0",
+    "parcel": "^1.12.4"
+  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.6.0",

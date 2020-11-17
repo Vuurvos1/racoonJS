@@ -1,0 +1,12 @@
+<header>
+    <h1>This is my 1st template</h1>
+
+    <h2><% if (name) { %> 
+        Mik
+    <% } %>
+    is {{ emotie }}</h2>
+</header>
+
+<main></main>
+
+<footer></footer>
